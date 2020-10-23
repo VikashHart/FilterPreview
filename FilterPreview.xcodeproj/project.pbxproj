@@ -14,6 +14,7 @@
 		A14D39E325411526004782E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D39E125411526004782E6 /* LaunchScreen.storyboard */; };
 		A14D39EE25411526004782E6 /* FilterPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39ED25411526004782E6 /* FilterPreviewTests.swift */; };
 		A14D39F925412E87004782E6 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39F825412E87004782E6 /* FilterView.swift */; };
+		A14D39FB25436BAE004782E6 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39FA25436BAE004782E6 /* FilterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A14D39ED25411526004782E6 /* FilterPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPreviewTests.swift; sourceTree = "<group>"; };
 		A14D39EF25411526004782E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14D39F825412E87004782E6 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		A14D39FA25436BAE004782E6 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				A14D39D625411522004782E6 /* AppDelegate.swift */,
 				A14D39DA25411522004782E6 /* ViewController.swift */,
+				A14D39FA25436BAE004782E6 /* FilterCell.swift */,
 				A14D39F825412E87004782E6 /* FilterView.swift */,
 				A14D39DC25411522004782E6 /* Main.storyboard */,
 				A14D39DF25411526004782E6 /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14D39DB25411522004782E6 /* ViewController.swift in Sources */,
+				A14D39FB25436BAE004782E6 /* FilterCell.swift in Sources */,
 				A14D39F925412E87004782E6 /* FilterView.swift in Sources */,
 				A14D39D725411522004782E6 /* AppDelegate.swift in Sources */,
 			);
