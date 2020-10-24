@@ -115,7 +115,7 @@ class FilterView: UIView {
             imageView.topAnchor.constraint(equalTo: headerContainer.bottomAnchor),
             imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
             imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            imageView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.6)
+            imageView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.4)
         ])
     }
 
