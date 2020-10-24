@@ -15,6 +15,7 @@
 		A14D39EE25411526004782E6 /* FilterPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39ED25411526004782E6 /* FilterPreviewTests.swift */; };
 		A14D39F925412E87004782E6 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39F825412E87004782E6 /* FilterView.swift */; };
 		A14D39FB25436BAE004782E6 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39FA25436BAE004782E6 /* FilterCell.swift */; };
+		A14D39FD2543CEE1004782E6 /* VCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D39FC2543CEE1004782E6 /* VCViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A14D39EF25411526004782E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14D39F825412E87004782E6 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		A14D39FA25436BAE004782E6 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		A14D39FC2543CEE1004782E6 /* VCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A14D39D625411522004782E6 /* AppDelegate.swift */,
+				A14D39FC2543CEE1004782E6 /* VCViewModel.swift */,
 				A14D39DA25411522004782E6 /* ViewController.swift */,
 				A14D39FA25436BAE004782E6 /* FilterCell.swift */,
 				A14D39F825412E87004782E6 /* FilterView.swift */,
@@ -205,6 +208,7 @@
 			files = (
 				A14D39DB25411522004782E6 /* ViewController.swift in Sources */,
 				A14D39FB25436BAE004782E6 /* FilterCell.swift in Sources */,
+				A14D39FD2543CEE1004782E6 /* VCViewModel.swift in Sources */,
 				A14D39F925412E87004782E6 /* FilterView.swift in Sources */,
 				A14D39D725411522004782E6 /* AppDelegate.swift in Sources */,
 			);
